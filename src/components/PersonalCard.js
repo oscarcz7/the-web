@@ -11,23 +11,17 @@ export default function PersonalCard() {
                 Hi I'm <span className="text-sky-600">Oscar Catota</span> .
               </h1>
               <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
+                I’m Spencer, a software designer and entrepreneur based in New
+                York City. I’m the founder and CEO of Planetaria, where we
+                develop technologies that empower regular people to explore
+                space on their own terms.
               </p>
               <div className="flex gap-6 mt-6">
                 <a className="p-1 -m-1 group">
                   <svg
                     viewBox="0 0 24 24"
                     aria-hidden="true"
-                    className="w-10 h-10 transition fill-zinc-500 group-hover:fill-violet-800"
+                    className="w-10 h-10 transition fill-violet-500 group-hover:fill-violet-800"
                   >
                     <path
                       fillRule="evenodd"
@@ -43,7 +37,7 @@ export default function PersonalCard() {
                 >
                   <svg
                     viewBox="0 0 24 24"
-                    className="w-10 h-10 transition fill-zinc-500 group-hover:fill-sky-700 "
+                    className="w-10 h-10 transition fill-sky-500 group-hover:fill-sky-700 "
                   >
                     <path d="M18.335 18.339H15.67v-4.177c0-.996-.02-2.278-1.39-2.278-1.389 0-1.601 1.084-1.601 2.205v4.25h-2.666V9.75h2.56v1.17h.035c.358-.674 1.228-1.387 2.528-1.387 2.7 0 3.2 1.778 3.2 4.091v4.715zM7.003 8.575a1.546 1.546 0 01-1.548-1.549 1.548 1.548 0 111.547 1.549zm1.336 9.764H5.666V9.75H8.34v8.589zM19.67 3H4.329C3.593 3 3 3.58 3 4.297v15.406C3 20.42 3.594 21 4.328 21h15.338C20.4 21 21 20.42 21 19.703V4.297C21 3.58 20.4 3 19.666 3h.003z"></path>
                   </svg>
