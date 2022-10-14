@@ -1,7 +1,15 @@
 export const personalInformation = {
+  cc: "Hi my name is",
   name: "Oscar Catota",
-  information: "I love to create incrediblethings for the web !!",
-  description: `I'm a software engineer specializing in full stack web apps development.`,
+  information: "I love to create incredible things for the web",
+  description: `I'm a software engineer specializing in full stack web apps development. Currently working as a tecnical consultant at`,
+  work: " Kruger Corporation",
+};
+
+export const socialLinks = {
+  github: "https://github.com/oscarcz7",
+  linkedin: "https://www.linkedin.com/in/oscarcz7",
+  mail: "ocatotazurita@gmail.com",
 };
 
 export const projects = [
@@ -36,23 +44,6 @@ export const projects = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./project-4.gif",
     link: "https://reactbootcamp.com",
-  },
-];
-
-export const testimonials = [
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
   },
 ];
 
