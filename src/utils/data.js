@@ -51,9 +51,10 @@ export const skills = [
   "JavaScript",
   "React",
   "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
+  "Vue js",
+  "Nuxt js",
+  "Tailwind css",
+  "Typescript js",
 ];
 
 export const images = {

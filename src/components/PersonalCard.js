@@ -1,4 +1,5 @@
 import React from "react";
+import { personalInformation, socialLinks } from "../utils/data"
 
 export default function PersonalCard() {
   return (
@@ -8,7 +9,7 @@ export default function PersonalCard() {
           <div className="max-w-2xl mx-auto lg:max-w-5xl">
             <div className="max-w-2xl">
               <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl">
-                Hi I'm <span className="text-sky-600">Oscar Catota</span> .
+                Hi I'm <span className="text-sky-600">{personalInformation.name}</span> .
               </h1>
               <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
                 I’m Spencer, a software designer and entrepreneur based in New
@@ -17,7 +18,11 @@ export default function PersonalCard() {
                 space on their own terms.
               </p>
               <div className="flex gap-6 mt-6">
-                <a className="p-1 -m-1 group">
+                <a
+                  className="p-1 -m-1 group"
+                  href={socialLinks.github}
+                  target="_blank" rel="noopener noreferrer"
+                >
                   <svg
                     viewBox="0 0 24 24"
                     aria-hidden="true"
@@ -33,7 +38,8 @@ export default function PersonalCard() {
                 <a
                   className="p-1 -m-1 group"
                   aria-label="Follow on LinkedIn"
-                  href="https://linkedin.com"
+                  href={socialLinks.linkedin}
+                  target="_blank" rel="noopener noreferrer"
                 >
                   <svg
                     viewBox="0 0 24 24"

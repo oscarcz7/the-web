@@ -8,6 +8,7 @@ function ImageLeft(props) {
         loading="lazy"
         sizes="(min-width: 640px) 18rem, 11rem"
         srcSet={props.url}
+        alt={props.alt}
       />
     </div>
   );
@@ -20,6 +21,7 @@ function ImageRight(props) {
         loading="lazy"
         sizes="(min-width: 640px) 18rem, 11rem"
         srcSet={props.url}
+        alt={props.alt}
       />
     </div>
   );

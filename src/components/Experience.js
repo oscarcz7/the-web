@@ -26,7 +26,7 @@ export default function Experience() {
       </h2>
       <ol className="mt-6 space-y-4">
         <li className="flex gap-4">
-          <div className="relative flex items-center justify-center flex-none w-10 h-10 mt-1 rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 ">
+          <div className="relative flex items-center justify-center flex-none w-10 h-10 mt-1 bg-green-900 rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 ">
             <img
               alt=""
               src="https://krugercorp.com/wp-content/uploads/2022/02/logo_kruger_.png"
@@ -92,7 +92,8 @@ export default function Experience() {
       </ol>
       <a
         className="inline-flex items-center justify-center w-full gap-2 px-3 py-2 mt-6 text-sm font-medium transition rounded-md outline-offset-2 active:transition-none bg-zinc-50 text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 group"
-        href="/#"
+        href="./oeczCV.pdf"
+        download
       >
         Download CV
         <svg
