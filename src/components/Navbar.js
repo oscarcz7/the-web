@@ -1,9 +1,9 @@
-import { Fragment } from "react";
+import React, { Fragment, useState } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-// import { ChevronDownIcon } from "@heroicons/react/20/solid";
-
+import Switcher from "./Switcher";
 export default function Navbar() {
+  
   return (
     <header className="relative z-50 flex flex-col pointer-events-none">
       <Popover className="top-0 z-10 h-16 pt-6">
@@ -56,7 +56,11 @@ export default function Navbar() {
                     </Popover.Group>
                   </div>
                   <div className="flex justify-end md:flex-1">
-                    <div className="pointer-events-auto">
+                    <div className="flex flex-col items-center min-h-screen transition duration-200 dark:bg-gray-900"></div>
+
+                    <Switcher/>
+
+                    {/* <div className="pointer-events-auto">
                       <a
                         href="/"
                         className="inline-flex items-center justify-center h-10 p-2 overflow-hidden border rounded-full shadow-lg group"
@@ -99,7 +103,7 @@ export default function Navbar() {
                           </div>
                         </div>
                       </a>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
