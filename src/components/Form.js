@@ -26,10 +26,10 @@ export default function FormData() {
   return (
     <div>
       <form
-        // netlify
+        netlify
         name="test"
         onSubmit={handleSubmit}
-        className="flex flex-col p-6 border rounded-2xl border-zinc-100 "
+        className="flex flex-col p-6 border shadow-xl rounded-2xl border-zinc-50 "
       >
         <h2 className="flex text-sm font-semibold sm:text-lg text-zinc-600 dark:text-zinc-400 ">
           <svg
