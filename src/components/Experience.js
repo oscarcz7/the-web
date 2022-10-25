@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Experience() {
   return (
-    <div className="p-6 border rounded-2xl border-zinc-100 ">
-      <h2 className="flex text-sm font-semibold text-zinc-900 ">
+    <div className="p-6 border shadow-xl rounded-2xl border-zinc-50">
+      <h2 className="flex text-sm font-semibold sm:text-lg text-zinc-600 dark:text-zinc-400">
         <svg
           viewBox="0 0 24 24"
           fill="none"
@@ -22,11 +22,11 @@ export default function Experience() {
             className="stroke-zinc-400 "
           ></path>
         </svg>
-        <span className="ml-3">Work</span>
+        <span className="ml-3">Work Experience</span>
       </h2>
       <ol className="mt-6 space-y-4">
         <li className="flex gap-4">
-          <div className="relative flex items-center justify-center flex-none w-10 h-10 mt-1 rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 ">
+          <div className="relative flex items-center justify-center flex-none w-10 h-10 mt-1 bg-orange-600 rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 ">
             <img
               alt=""
               src="https://krugercorp.com/wp-content/uploads/2022/02/logo_kruger_.png"
@@ -59,20 +59,11 @@ export default function Experience() {
           </dl>
         </li>
         <li className="flex gap-4">
-          <div className="relative flex items-center justify-center flex-none w-10 h-10 mt-1 rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 ">
-            <img
-              alt=""
-              src="https://krugercorp.com/wp-content/uploads/2022/02/logo_kruger_.png"
-              width="32"
-              height="32"
-              decoding="async"
-              data-nimg="future"
-              className="h-7 w-7"
-              loading="lazy"
-            />
+          <div className="relative flex items-center justify-center flex-none w-10 h-10 mt-1 text-sm font-semibold bg-yellow-600 rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 sm:text-lg text-zinc-50">
+            V
           </div>
           <dl className="flex flex-wrap flex-auto gap-x-2">
-            <dd className="flex-none w-full text-sm font-medium text-orange-600 ">
+            <dd className="flex-none w-full text-sm font-medium text-yellow-600 ">
               Verndale
             </dd>
             <dd className="text-xs text-zinc-500 ">
@@ -91,8 +82,9 @@ export default function Experience() {
         </li>
       </ol>
       <a
-        className="inline-flex items-center justify-center w-full gap-2 px-3 py-2 mt-6 text-sm font-medium transition rounded-md outline-offset-2 active:transition-none bg-zinc-50 text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 group"
-        href="/#"
+        className="inline-flex items-center justify-center w-full gap-2 px-3 py-2 mt-6 text-sm font-medium transition rounded-md outline-offset-2 active:transition-none bg-zinc-100 text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70 group"
+        href="./oeczCV.pdf"
+        download
       >
         Download CV
         <svg

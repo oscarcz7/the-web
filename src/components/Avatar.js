@@ -7,7 +7,7 @@ export default function Avatar() {
         <div className="max-w-2xl mx-auto mt-4 lg:max-w-5xl">
           <div className="relative">
             <img
-              className="inline-block w-16 h-16 mt-10 rounded-full ring-2 ring-white"
+              className="inline-block mt-10 rounded-full w-28 h-28 ring-2 ring-white"
               src="./oecz.jpg"
               alt=""
             />

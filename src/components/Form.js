@@ -31,7 +31,7 @@ export default function FormData() {
         onSubmit={handleSubmit}
         className="flex flex-col p-6 border rounded-2xl border-zinc-100 "
       >
-        <h2 className="flex text-sm font-semibold text-zinc-900 ">
+        <h2 className="flex text-sm font-semibold sm:text-lg text-zinc-600 dark:text-zinc-400 ">
           <svg
             viewBox="0 0 24 24"
             fill="none"
@@ -64,8 +64,7 @@ export default function FormData() {
             id="name"
             name="name"
             onChange={(e) => setName(e.target.value)}
-            className="flex-auto w-full px-3 py-[calc(theme(spacing.2)-1px)] leading-8 transition-colors  placeholder:text-sky-200  bg-white border shadow-md rounded-xl border-sky-900/10 "
-            
+            className="flex-auto w-full px-3 py-[calc(theme(spacing.2)-1px)] leading-8 transition-colors  placeholder:text-slate-200  bg-white  shadow-md rounded-xl  "
           />
         </div>
 
@@ -77,7 +76,7 @@ export default function FormData() {
             id="email"
             name="email"
             onChange={(e) => setEmail(e.target.value)}
-            className="flex-auto w-full px-3 py-[calc(theme(spacing.2)-1px)] leading-8 transition-colors  placeholder:text-sky-200  bg-white border shadow-md rounded-xl border-sky-900/10 "
+            className="flex-auto w-full px-3 py-[calc(theme(spacing.2)-1px)] leading-8 transition-colors  placeholder:text-slate-200  bg-white  shadow-md rounded-xl  "
           />
         </div>
         <div className="relative mb-4">
@@ -86,12 +85,12 @@ export default function FormData() {
             id="message"
             name="message"
             onChange={(e) => setMessage(e.target.value)}
-            className="w-full h-32 px-3 py-1 leading-8 border shadow-md resize-none rounded-xl border-sky-900/10 border-sky-700 "
+            className="w-full h-32 px-3 py-1 leading-8 shadow-md resize-none rounded-xl "
           />
         </div>
 
         <button
-          className="inline-flex items-center justify-center flex-none gap-2 px-3 py-2 ml-4 text-sm font-semibold transition rounded-md outline-offset-2 active:transition-none bg-zinc-800 text-zinc-100 hover:bg-zinc-700 active:bg-zinc-800 active:text-zinc-100/70"
+          className="inline-flex items-center justify-center w-full gap-2 px-3 py-2 mt-6 text-sm font-medium transition rounded-md outline-offset-2 active:transition-none bg-zinc-100 text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70 group"
           type="submit"
         >
           Send
