@@ -1,9 +1,8 @@
-import React, { Fragment, useState } from "react";
+import React, { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Switcher from "./Switcher";
 export default function Navbar() {
-  
   return (
     <header className="relative z-50 flex flex-col pointer-events-none">
       <Popover className="top-0 z-10 h-16 pt-6">
@@ -14,7 +13,7 @@ export default function Navbar() {
                 <div className="relative flex gap-4">
                   <div className="flex flex-1"></div>
                   <div className="flex justify-end flex-1 md:justify-center">
-                    <div className="pointer-events-auto md:hidden">
+                    {/* <div className="pointer-events-auto md:hidden">
                       <Popover.Button className="flex items-center px-4 py-2 text-sm font-medium rounded-full shadow-lg group bg-white/90 text-zinc-800 shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur ">
                         Menu
                         <Bars3Icon
@@ -22,43 +21,27 @@ export default function Navbar() {
                           aria-hidden="true"
                         />
                       </Popover.Button>
-                    </div>
-                    <Popover.Group
+                    </div> */}
+                    {/* <Popover.Group
                       as="nav"
                       className="hidden pointer-events-auto md:block"
                     >
                       <ul className="hidden px-3 text-sm font-medium rounded-full shadow-lg md:flex bg-white/90 text-zinc-800 shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur ">
                         <li>
                           <a
-                            href="/"
-                            className="relative block px-3 py-2 transition hover:text-teal-500 "
-                          >
-                            Pricing
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="/"
-                            className="relative block px-3 py-2 transition hover:text-teal-500 "
-                          >
-                            Pricing
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="/"
+                            href="#form"
                             className="relative block px-3 py-2 transition hover:text-teal-500 "
                           >
                             Pricing
                           </a>
                         </li>
                       </ul>
-                    </Popover.Group>
+                    </Popover.Group> */}
                   </div>
                   <div className="flex justify-end md:flex-1">
                     <div className="flex flex-col items-center min-h-screen transition duration-200 dark:bg-gray-900"></div>
 
-                    <Switcher/>
+                    <Switcher />
 
                     {/* <div className="pointer-events-auto">
                       <a
@@ -111,7 +94,7 @@ export default function Navbar() {
           </div>
         </div>
 
-        <Transition
+        {/* <Transition
           as={Fragment}
           enter="duration-200 ease-out"
           enterFrom="opacity-0 scale-95"
@@ -151,7 +134,7 @@ export default function Navbar() {
               </nav>
             </div>
           </Popover.Panel>
-        </Transition>
+        </Transition> */}
       </Popover>
     </header>
   );

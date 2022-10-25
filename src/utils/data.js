@@ -49,12 +49,15 @@ export const projects = [
 
 export const skills = [
   "JavaScript",
+  "TypeScript",
+  "Python",
   "React",
-  "Next.js",
   "Vue js",
-  "Nuxt js",
+  "NuxtJS",
   "Tailwind css",
-  "Typescript js",
+  "Vuetify",
+  "NestJS",
+  "Express",
 ];
 
 export const images = {

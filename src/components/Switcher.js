@@ -1,15 +1,11 @@
 import React, { useState } from "react";
 import useDarkSide from "../hooks/useDarkSide";
-import { DarkModeSwitch } from "react-toggle-dark-mode";
 
 export default function Switcher() {
   const [colorTheme, setTheme] = useDarkSide();
-  const [darkSide, setDarkSide] = useState(
-    colorTheme === "light" ? true : false
-  );
-  console.log(colorTheme);
+  const [, setDarkSide] = useState(colorTheme === "light" ? true : false);
+
   const toggleDarkMode = (e) => {
-    console.log(e);
     setTheme(colorTheme);
     setDarkSide(!e);
   };
@@ -18,7 +14,7 @@ export default function Switcher() {
       <div className="pointer-events-auto">
         <button
           onClick={toggleDarkMode}
-          className="p-2 border rounded-full shadow-lg"
+          className="p-2 border rounded-full shadow-lg dark:bg-slate-200 bg-slate-600 stroke-slate-800 "
         >
           {colorTheme === "light" ? (
             <div className="flex h-7">
@@ -28,7 +24,7 @@ export default function Switcher() {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="h-6 m-auto w-7 hover:stroke-sky-700"
+                className="h-6 m-auto w-7 stroke-sky-700 "
               >
                 <path
                   strokeLinecap="round"
@@ -45,7 +41,7 @@ export default function Switcher() {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="h-5 m-auto w-7 hover:stroke-sky-700"
+                className="h-5 m-auto w-7 stroke-slate-50 "
               >
                 <path
                   strokeLinecap="round"

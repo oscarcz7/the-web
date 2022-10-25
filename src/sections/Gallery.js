@@ -7,10 +7,10 @@ export default function Gallery() {
       <div className="flex justify-center gap-5 py-4 -my-4 overflow-hidden sm:gap-8">
         <ImageRight url={images.first} />
         <ImageLeft url={images.second} />
-        <ImageLeft url={images.fifth} />
         <ImageRight url={images.fourth} />
-        <ImageLeft url={images.second} />
+        <ImageLeft url={images.fifth} />
         <ImageRight url={images.third} />
+        <ImageLeft url={images.second} />
       </div>
     </div>
   );
