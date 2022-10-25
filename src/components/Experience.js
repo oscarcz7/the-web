@@ -49,11 +49,11 @@ export default function Experience() {
             <dd className="text-xs text-zinc-500 ">React | Nest js</dd>
 
             <dd
-              className="ml-auto text-xs text-zinc-400"
+              className="mt-1 ml-auto text-xs text-zinc-400"
               aria-label="2019 until Present"
             >
-              <time dateTime="2019">2022</time>
-              <span aria-hidden="true">—</span>
+              <time dateTime="2019">May 2022</time>
+              <span aria-hidden="true"> — </span>
               <time dateTime="2022">Present</time>
             </dd>
           </dl>
@@ -71,12 +71,12 @@ export default function Experience() {
               Sitecore Content Entry Specialist
             </dd>
             <dd
-              className="ml-auto text-xs text-zinc-400"
+              className="mt-1 ml-auto text-xs text-zinc-400"
               aria-label="2019 until Present"
             >
-              <time dateTime="2019">2022</time>
-              <span aria-hidden="true">—</span>
-              <time dateTime="2022">Present</time>
+              <time dateTime="2019">March 2022</time>
+              <span aria-hidden="true"> — </span>
+              <time dateTime="2022">May 2022</time>
             </dd>
           </dl>
         </li>
